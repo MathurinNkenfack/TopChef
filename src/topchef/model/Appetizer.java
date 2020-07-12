@@ -1,11 +1,11 @@
 package topchef.model;
 
 
-public class Appetisez extends Item {
+public class Appetizer extends Item {
 
 	private String description;
 	
-    public Appetisez(String description, double price) {
+    public Appetizer(String description, double price) {
     	this.description = description;
     	this.price = price;
     }

@@ -74,7 +74,7 @@ public class Order {
 					if(items.get(i) instanceof Cafe) {
 						cafe = true;
 					}
-					if(items.get(i) instanceof Appetisez) {
+					if(items.get(i) instanceof Appetizer) {
 						appetisez = true;
 					}
 					if(items.get(i) instanceof Dish) {
@@ -93,8 +93,8 @@ public class Order {
 					String title3 = String.format("%30s", "APPETISEZ");
 					System.out.println("\n\n" + title3 + "\n");
 					for(int i=0; i<items.size(); i++) {
-						if(items.get(i) instanceof Appetisez) {
-							Appetisez a = (Appetisez)items.get(i);
+						if(items.get(i) instanceof Appetizer) {
+							Appetizer a = (Appetizer)items.get(i);
 							totalSum = totalSum + a.getAmount()*a.getPrice();
 							System.out.print(a);
 						}
@@ -158,7 +158,7 @@ public class Order {
 					if(items.get(i) instanceof Cafe) {
 						cafe = true;
 					}
-					if(items.get(i) instanceof Appetisez) {
+					if(items.get(i) instanceof Appetizer) {
 						appetisez = true;
 					}
 					if(items.get(i) instanceof Dish) {
@@ -177,8 +177,8 @@ public class Order {
 					String title3 = String.format("%30s", "APPETISEZ");
 					System.out.println("\n\n" + title3 + "\n");
 					for(int i=0; i<items.size(); i++) {
-						if(items.get(i) instanceof Appetisez) {
-							Appetisez a = (Appetisez)items.get(i);
+						if(items.get(i) instanceof Appetizer) {
+							Appetizer a = (Appetizer)items.get(i);
 							totalSum = totalSum + a.getAmount()*a.getPrice();
 							System.out.print(a);
 						}

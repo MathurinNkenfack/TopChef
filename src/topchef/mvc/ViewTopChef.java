@@ -16,7 +16,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 
-import topchef.model.Appetisez;
+import topchef.model.Appetizer;
 import topchef.model.BreakFast;
 import topchef.model.Cafe;
 import topchef.model.CafeCategory;
@@ -616,12 +616,12 @@ public class ViewTopChef extends JFrame{
 		
 	public void addAppetisezPage() throws Exception {
 		String[] columnNames = {"N#","Description","Price(FCFA)"};
-		ArrayList<Appetisez> results = model.getAppetisezs();
+		ArrayList<Appetizer> results = model.getAppetisezs();
 		JTable table;
 		if(results != null) {
 			String values[][] = new String[results.size()][3];
 			for(int i=0; i<results.size(); i++) {
-				Appetisez f1 = results.get(i);
+				Appetizer f1 = results.get(i);
 				String number = Integer.toString(i+1);
 				String price = Double.toString(f1.getPrice());
 				String value[] = { number, f1.getDescription(), price};
@@ -1014,7 +1014,7 @@ public class ViewTopChef extends JFrame{
 	@SuppressWarnings("unchecked")
 	public void setItems() throws Exception {
 		
-		ArrayList<Appetisez> appetisezs = model.getAppetisezs();
+		ArrayList<Appetizer> appetisezs = model.getAppetisezs();
 		ArrayList<Dish> dishes = model.getDishes();
 		ArrayList<Dessert> desserts = model.getDesserts();
 		ArrayList<Cafe> coffee = model.getCafes("coffee");
@@ -1045,7 +1045,7 @@ public class ViewTopChef extends JFrame{
 		@SuppressWarnings("unchecked")
 		public void lunchOrderPage() throws Exception {
 			
-			ArrayList<Appetisez> appetisezs = (ArrayList<Appetisez>)((ArrayList<?>)items.get("APPETISEZ"));
+			ArrayList<Appetizer> appetisezs = (ArrayList<Appetizer>)((ArrayList<?>)items.get("APPETISEZ"));
 			ArrayList<Dish> dishes = (ArrayList<Dish>)((ArrayList<?>)items.get("DISH"));
 			ArrayList<Dessert> desserts = (ArrayList<Dessert>)((ArrayList<?>)items.get("DESSERT"));
 			ArrayList<Cafe> coffee = (ArrayList<Cafe>)((ArrayList<?>)items.get("COFFEE"));
@@ -1072,7 +1072,7 @@ public class ViewTopChef extends JFrame{
 			String juiceList[] = new String[juice.size()];
 			String waterList[] = new String[water.size()];
 			for(int i=0; i < appetisezs.size(); i++) {
-				Appetisez p = appetisezs.get(i);
+				Appetizer p = appetisezs.get(i);
 				appetisezList[i] = p.getDescription() + "-" + Double.toString(p.getPrice())+ "FCFA";
 			}
 			
@@ -1278,7 +1278,7 @@ public class ViewTopChef extends JFrame{
 		
 		@SuppressWarnings("unchecked")
 		public void dinnerOrderPage() throws Exception {
-			ArrayList<Appetisez> appetisezs = (ArrayList<Appetisez>)((ArrayList<?>)items.get("APPETISEZ"));
+			ArrayList<Appetizer> appetisezs = (ArrayList<Appetizer>)((ArrayList<?>)items.get("APPETISEZ"));
 			ArrayList<Dish> dishes = (ArrayList<Dish>)((ArrayList<?>)items.get("DISH"));
 			ArrayList<Dessert> desserts = (ArrayList<Dessert>)((ArrayList<?>)items.get("DESSERT"));
 			ArrayList<Cafe> coffee = (ArrayList<Cafe>)((ArrayList<?>)items.get("COFFEE"));
@@ -1306,7 +1306,7 @@ public class ViewTopChef extends JFrame{
 			String juiceList[] = new String[juice.size()];
 			String waterList[] = new String[water.size()];
 			for(int i=0; i < appetisezs.size(); i++) {
-				Appetisez p = appetisezs.get(i);
+				Appetizer p = appetisezs.get(i);
 				appetisezList[i] = p.getDescription() + "-" + Double.toString(p.getPrice())+ "FCFA";
 			}
 			
@@ -2198,7 +2198,7 @@ public class ViewTopChef extends JFrame{
                 DefaultTableModel tableModel = (DefaultTableModel) tables.get("lunchTable").getModel();
                 JLabel total = labels.get("totalTitle1");
                 JButton orderButton = buttons.get("addOrder1");
-                Appetisez appetisez = (Appetisez) items.get("APPETISEZ").get(id);
+                Appetizer appetisez = (Appetizer) items.get("APPETISEZ").get(id);
                 String amount = JOptionPane.showInputDialog("Enter the number of " + item);
                
                 appetisez.setAmount(Integer.parseInt(amount));
@@ -2544,7 +2544,7 @@ public class ViewTopChef extends JFrame{
                 DefaultTableModel tableModel = (DefaultTableModel) tables.get("dinnerTable").getModel();
                 JLabel total = labels.get("totalTitle2");
                 JButton orderButton = buttons.get("addOrder2");
-                Appetisez appetisez = (Appetisez) items.get("APPETISEZ").get(id);
+                Appetizer appetisez = (Appetizer) items.get("APPETISEZ").get(id);
                 String amount = JOptionPane.showInputDialog("Enter the number of " + item);
                
                 appetisez.setAmount(Integer.parseInt(amount));
@@ -3211,7 +3211,7 @@ public class ViewTopChef extends JFrame{
 		        		JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
 		        if(result == JOptionPane.OK_OPTION) {
 		        	try {
-						model.insertAppetisez(new Appetisez( descriptionField.getText(),Double.parseDouble(priceField.getText())));
+						model.insertAppetisez(new Appetizer( descriptionField.getText(),Double.parseDouble(priceField.getText())));
 						removePage("addAppetisez");
 						panels.remove("addAppetisez");
 						addAppetisezPage();

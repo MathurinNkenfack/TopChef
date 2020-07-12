@@ -30,7 +30,7 @@ public class ControllerTopChef {
 	 * =================================================
 	 */
 			
-	public int insertAppetisez(Appetisez appetisez) throws Exception{
+	public int insertAppetisez(Appetizer appetisez) throws Exception{
 		try {
 			connect();
 			statement = connect.createStatement();
@@ -150,7 +150,7 @@ public class ControllerTopChef {
 	 * =================================================
 	 */
 			
-	public int deleteAppetisez(Appetisez appetisez) throws Exception{
+	public int deleteAppetisez(Appetizer appetisez) throws Exception{
 		try {
 			connect();
 			statement = connect.createStatement();
@@ -270,7 +270,7 @@ public class ControllerTopChef {
 	 * ==========================================
 	 */
 	
-	public ArrayList<Appetisez> getAppetisezs() throws Exception{
+	public ArrayList<Appetizer> getAppetisezs() throws Exception{
 		try {
 			connect();
 			statement = connect.createStatement();
@@ -279,11 +279,11 @@ public class ControllerTopChef {
 				return null;
 			}
 			else {
-				ArrayList<Appetisez> app = new ArrayList<Appetisez>();
+				ArrayList<Appetizer> app = new ArrayList<Appetizer>();
 				while(resultSet.next()) {
 					String des = resultSet.getString("description");
 					double price = resultSet.getDouble("price");
-					app.add(new Appetisez(des, price));
+					app.add(new Appetizer(des, price));
 				}
 				return app;
 			}
