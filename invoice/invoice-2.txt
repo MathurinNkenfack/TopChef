@@ -1,0 +1,13 @@
+                                                                    LUNCH
+
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+                     APPETISEZ
+
+                         sushi                        2000.0                             5                       10000.0
+
+
+                  TOTAL BILL:                        10000.0 FCFA
+[home]

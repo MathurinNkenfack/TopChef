@@ -1,0 +1,21 @@
+                                                                    LUNCH
+
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+
+
+                          DISH
+
+               Poulet Braissez                       10000.0                             1                       10000.0
+
+
+
+                          CAFE
+
+                Chocolat-Chaud                         700.0                             1                         700.0
+
+
+
+                  TOTAL BILL:                        10700.0 FCFA

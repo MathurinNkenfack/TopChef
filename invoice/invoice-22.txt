@@ -1,0 +1,16 @@
+                                                                    LUNCH
+
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+
+
+                   FRESH DRINK
+
+                Beaufort-Light                         600.0                             1                         600.0
+                     Coca-Cola                         500.0                             1                         500.0
+
+
+
+                  TOTAL BILL:                         1100.0 FCFA

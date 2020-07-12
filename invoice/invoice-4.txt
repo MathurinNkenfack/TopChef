@@ -1,0 +1,16 @@
+                                                                    LUNCH
+
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+                     APPETISEZ
+
+                         chips                         250.0                             2                         500.0
+
+                          DISH
+
+               Poulet Braissez                       10000.0                             1                       10000.0
+
+
+                  TOTAL BILL:                        10500.0 FCFA

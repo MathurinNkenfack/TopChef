@@ -1,0 +1,15 @@
+                                                                     DRINKS
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+
+
+                      FRESH DRINK
+                  Orijin(Beer)                         700.0                             5                        3500.0
+                     Coca-Cola                         500.0                             2                        1000.0
+                        Tangui                         400.0                             1                         400.0
+
+
+
+                  TOTAL BILL:                                                                                4900.0 FCFA

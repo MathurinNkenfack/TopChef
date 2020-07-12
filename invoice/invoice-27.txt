@@ -1,0 +1,32 @@
+INVOICE-0000027
+
+12/07/2020  AT    07:03:14
+
+
+
+                                                                    LUNCH
+
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+
+                     APPETISEZ
+
+                         chips                         250.0                             3                         750.0
+
+
+
+                          DISH
+
+               Poulet Braissez                       10000.0                             1                       10000.0
+
+
+
+                   FRESH DRINK
+
+                     Coca-Cola                         500.0                             2                        1000.0
+
+
+
+                  TOTAL BILL:                                                                                    11750.0 FCFA

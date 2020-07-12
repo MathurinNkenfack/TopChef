@@ -1,0 +1,22 @@
+                                                                    LUNCH
+
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+
+
+                   FRESH DRINK
+
+                         Baron                        1200.0                             2                        2400.0
+                Beaufort-Light                         600.0                             1                         600.0
+
+
+
+                          CAFE
+
+                Chocolat-Chaud                         700.0                             1                         700.0
+
+
+
+                  TOTAL BILL:                         3700.0 FCFA

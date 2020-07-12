@@ -1,0 +1,20 @@
+                                                                    DINNER
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+
+
+                          DISH
+
+               Poulet Braissez                       10000.0                             1                       10000.0
+
+
+
+                   FRESH DRINK
+
+                    Petit-Chef                        5000.0                             1                        5000.0
+
+
+
+                  TOTAL BILL:                        15000.0 FCFA

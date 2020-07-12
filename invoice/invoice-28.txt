@@ -1,0 +1,20 @@
+INVOICE#0000028
+
+12/07/2020  AT  07:06:19
+
+
+
+                                                                     DRINKS
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+
+
+                   FRESH DRINK
+                       Chivase                       15000.0                             1                       15000.0
+                 Top Grenadine                         400.0                             3                        1200.0
+
+
+
+                  TOTAL BILL:                                                                                    16200.0 FCFA

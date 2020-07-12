@@ -1,0 +1,16 @@
+                                                                    LUNCH
+
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+
+
+                          DISH
+
+               Poulet Braissez                       10000.0                            10                      100000.0
+
+
+
+                  TOTAL BILL:                       100000.0 FCFA
+[home]

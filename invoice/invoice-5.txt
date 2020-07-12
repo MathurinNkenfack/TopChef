@@ -1,0 +1,17 @@
+                                                                    LUNCH
+
+
+                          ITEM                   PRICE(FCFA)                        AMOUNT                   TOTAL(FCFA)
+
+
+                       DESSERT
+
+               Chou a la creme                         500.0                             1                         500.0
+
+                          CAFE
+
+                    Milk-Cofee                        1500.0                             1                        1500.0
+                        Lipton                         300.0                             2                         600.0
+
+
+                  TOTAL BILL:                         2600.0 FCFA
